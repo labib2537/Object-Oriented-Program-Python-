@@ -1,0 +1,21 @@
+class student:
+    name = ""
+    id = ""
+    gpa = ""
+    Section = ""
+
+    def __init__(self,name,id,gpa,Section):
+        self.name = name
+        self.id = id
+        self.gpa = gpa
+        self.Section = Section
+
+    def display(self):
+       print(f"Name: {self.name}, ID: {self.id}, GPA: {self.gpa}, Section: {self.Section}")
+
+s1 = student("Rahim",2537,3.94,"A")
+s1.display()
+
+s2 = student("Karim",2555,3.81,"B")
+s2.display()
+
