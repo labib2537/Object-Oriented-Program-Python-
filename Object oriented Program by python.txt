@@ -1,0 +1,21 @@
+class student:
+    id = ""
+    gpa = ""
+
+    def display(self):
+       print(f"ID: {self.id},GPA: {self.gpa}")
+
+    def setValue(self,id,gpa):
+        self.id = id
+        self.gpa = gpa
+
+
+rahim = student()
+rahim.setValue(2537,3.94)
+rahim.display()
+
+
+karim = student()
+karim.setValue(2555,3.81)
+karim.display()
+
